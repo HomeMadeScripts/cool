@@ -86,11 +86,11 @@ CheckKeyCorner.CornerRadius = UDim.new(0, 5)
 CheckKeyCorner.Parent = CheckKey
 
 GetKey.MouseButton1Click:Connect(function()
-   setclipboard("Your Way How To Get The Key")
+   setclipboard("https://loot-link.com/s?7db9238a")
 end)
 
 local function validateKey(key)
-    return key == "Epic" -- Replace this with your key
+    return key == "key - 123abc" -- Replace this with your key
 end
 
 CheckKey.MouseButton1Click:Connect(function()
